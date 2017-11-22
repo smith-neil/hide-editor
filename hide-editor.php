@@ -4,6 +4,7 @@
 Plugin Name: Hide Editor
 Plugin Description: Hides the WYSIWYG editor for specified templates.
 Plugin Author: Neil Smith
+Version: 1.0.0
 */
 
 defined( 'ABSPATH' ) or die( 'Direct access to hide-editor is blocked. ');
