@@ -6,6 +6,8 @@ Plugin Description: Hides the WYSIWYG editor for specified templates.
 Plugin Author: Neil Smith
 */
 
+defined( 'ABSPATH' ) or die( 'Direct access to hide-editor is blocked. ');
+
 add_action( 'admin_menu', 'hideeditor_add_options_page' );
 function hideeditor_add_options_page() {
   add_options_page(
